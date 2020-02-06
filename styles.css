@@ -5,14 +5,15 @@ html, body, #app {
 
 #app {
     display: flex;
+    flex-wrap: wrap;/*faz uma quebra de linha*/
+    align-items: center;
+    justify-content: space-between;
+    align-content: center; /*alinha os elementos quando tem mais de uma linha*/
 }
 
 .box {
-    width: 300px;
+    width: 500px;
     height: 60px;
     background: #f00;
     margin: 5px;
-    /*flex-grow: 1; faz os componentes ocuparem toda a largura disponível em tela*/
-    /*flex-shrink: 1; faz os componentes transpordarem da página sem eles se "esmagarem" */
-    flex: 1 0; /*Junção do flex-grow com o  flex-shrink*/
 }
