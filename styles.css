@@ -4,11 +4,30 @@ html, body, #app {
 }
 
 #app {
+
+
+    
     display: flex;
     flex-direction: row; /*padrão, alinha horizontalmente*/
     /*flex-direction: row-reverse; alinha horizontalmente no canto direito superior*/
     /*flex-direction: column; alinha verticalmente*/
+
+
+    /*O align items atua ao contrário do eixo do flex-direction*/
+
     /*flex-direction: column-reverse; alinha verticalmente no canto inferior esquerdo*/
+    align-items: center; /*padrão, alinha verticalmente no início*/
+    /*align-items: center; alinha verticalmente no meio*/
+    /*align-items: flex-end; alinha verticalmente no final*/
+
+
+
+    justify-content: flex-start; /*padrão, alinha horizontalmente no início*/
+    /*justify-content: center; alinha horizontalmente no meio*/
+    /*justify-content: flex-end; alinha horizontalmente na direita*/
+    /*justify-content: space-between; coloca um espaçamento igual entre todos os elementos*/
+    /*justify-content: space-around; coloca um espaçamento igual entre todos os elementos 
+    e por fora deles*/
 }
 
 .box {
