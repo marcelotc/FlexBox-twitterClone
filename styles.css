@@ -1,5 +1,14 @@
-#app {
+html, body, #app {
+    height: 100%;
+    margin:  0;
+}
 
+#app {
+    display: flex;
+    flex-direction: row; /*padrão, alinha horizontalmente*/
+    /*flex-direction: row-reverse; alinha horizontalmente no canto direito superior*/
+    /*flex-direction: column; alinha verticalmente*/
+    /*flex-direction: column-reverse; alinha verticalmente no canto inferior esquerdo*/
 }
 
 .box {
